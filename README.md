@@ -1,7 +1,29 @@
-# Vue 3 + Vite
+# TecnoGlass - Frontend Test
+Prueba frontend para TecnoGlass - 2023. Este proyecto contiene una lista de peliculas extraidas de la API de OMDB. Se puede buscar peliculas por nombre y ver los detalles de cada pelicula.
+Tiene un diseño responsive para dispositivos moviles y desktop.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Instalación
+- Se necesita tener instalado `pnpm` para poder instalar las dependencias del proyecto.
+- Para instalar el proyecto, se debe clonar el repositorio y ejecutar el comando `pnpm install` para instalar las dependencias.
+- Para ejecutar el proyecto, se debe ejecutar el comando `pnpm run dev` para ejecutar el proyecto en modo desarrollo.
 
-## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Tecnologías
+- [VueJS 3](https://v3.vuejs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [ViteJS](https://vitejs.dev/)
+- [Pinia(State Management)](https://pinia.esm.dev/)
+- [Vue Router](https://router.vuejs.org/)
+
+## Estructura de carpetas
+- views: Contiene las vistas de la aplicación.
+- components: Contiene los componentes de la aplicación.
+- assets: Contiene los assets de la aplicación.
+- styles: Contiene los estilos globales de la aplicación.
+- utils: Contiene utilidades de la aplicación.
+- store: Contiene el store de la aplicación usando Pinia como State global manegement.
+- router: Contiene el router de la aplicación.
+
+## Autor
+- kevindm14 - Kevin Diaz
+
