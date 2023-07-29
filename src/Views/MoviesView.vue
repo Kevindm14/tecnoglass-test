@@ -21,9 +21,5 @@ movieStore.fetchMovies()
         :key="movie.imdbID"
         :movie="movie"
     />
-
-    <div v-if="movies.length === 0">
-      Not found
-    </div>
   </div>
 </template>
